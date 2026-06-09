@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#ffffff"/>
+
+  <!-- Corner cell tints -->
+  <rect x="0"   y="0"     width="300" height="157.5" fill="#ecfdf5" opacity="0.6"/>
+  <rect x="900" y="0"     width="300" height="157.5" fill="#ecfdf5" opacity="0.6"/>
+  <rect x="0"   y="472.5" width="300" height="157.5" fill="#ecfdf5" opacity="0.6"/>
+  <rect x="900" y="472.5" width="300" height="157.5" fill="#ecfdf5" opacity="0.6"/>
+
+  <!-- Grid lines — vertical -->
+  <line x1="300" y1="0" x2="300" y2="630"  stroke="#d1fae5" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="630"  stroke="#d1fae5" stroke-width="1"/>
+  <line x1="900" y1="0" x2="900" y2="630"  stroke="#d1fae5" stroke-width="1"/>
+
+  <!-- Grid lines — horizontal -->
+  <line x1="0" y1="157.5" x2="1200" y2="157.5" stroke="#d1fae5" stroke-width="1"/>
+  <line x1="0" y1="315"   x2="1200" y2="315"   stroke="#d1fae5" stroke-width="1"/>
+  <line x1="0" y1="472.5" x2="1200" y2="472.5" stroke="#d1fae5" stroke-width="1"/>
+
+  <!-- Outer border -->
+  <rect x="0.5" y="0.5" width="1199" height="629" fill="none" stroke="#d1fae5" stroke-width="1"/>
+
+  <!-- Corner coordinates -->
+  <text x="22" y="30"  font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="11" font-weight="500" fill="#a7f3d0" letter-spacing="2">A1</text>
+  <text x="1178" y="30"  font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="11" font-weight="500" fill="#a7f3d0" letter-spacing="2" text-anchor="end">A4</text>
+  <text x="22" y="614" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="11" font-weight="500" fill="#a7f3d0" letter-spacing="2">D1</text>
+  <text x="1178" y="614" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="11" font-weight="500" fill="#a7f3d0" letter-spacing="2" text-anchor="end">D4</text>
+
+  <!-- Data hints -->
+  <text x="1178" y="145" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="11" fill="#a7f3d0" text-anchor="end" letter-spacing="1">↑ ROI</text>
+  <text x="22"   y="463" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="11" fill="#a7f3d0" letter-spacing="1">YTD</text>
+  <text x="22"   y="145" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="11" fill="#a7f3d0" letter-spacing="1">+12.4%</text>
+
+  <!-- Wordmark -->
+  <text
+    x="600" y="348"
+    font-family="'Space Grotesk', 'Inter', 'Helvetica Neue', sans-serif"
+    font-size="192"
+    font-weight="700"
+    fill="#10b981"
+    text-anchor="middle"
+    letter-spacing="-8"
+  >Metric</text>
+
+  <!-- Thin rule -->
+  <line x1="600" y1="376" x2="600" y2="418" stroke="#6ee7b7" stroke-width="1"/>
+
+  <!-- Coming Soon -->
+  <text
+    x="600" y="443"
+    font-family="'Inter', 'Helvetica Neue', sans-serif"
+    font-size="13"
+    font-weight="500"
+    fill="#6ee7b7"
+    text-anchor="middle"
+    letter-spacing="7"
+  >COMING SOON</text>
+
+  <!-- Domain -->
+  <text
+    x="600" y="596"
+    font-family="'Inter', 'Helvetica Neue', sans-serif"
+    font-size="11"
+    font-weight="400"
+    fill="#a7f3d0"
+    text-anchor="middle"
+    letter-spacing="4"
+  >METRICNOW.CO</text>
+
+</svg>
